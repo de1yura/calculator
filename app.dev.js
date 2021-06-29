@@ -9,11 +9,12 @@ var equals = document.querySelector('.equals');
 var decimal = document.querySelector('.decimal');
 var history = document.querySelector('.history');
 display.value = 0;
-var thisbutton = ""; //display numbers
+var thisbutton = ""; //display numbers   
 
 var displayOnScreen = function displayOnScreen(e) {
   if (display.value === "0" || thisbutton === "operatorButton") {
     display.value = e.target.innerHTML;
+    thisbutton = "";
   } else {
     display.value += e.target.innerHTML;
   }

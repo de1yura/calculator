@@ -11,10 +11,11 @@ let history = document.querySelector('.history');
 display.value=0;
 let thisbutton = "";
 
-//display numbers
+//display numbers   
 const displayOnScreen = (e) => {
   if (display.value==="0"|| thisbutton==="operatorButton") {
     display.value = e.target.innerHTML;
+    thisbutton="";
   } else {
     display.value += e.target.innerHTML;
   }
@@ -90,5 +91,3 @@ decimal.addEventListener('click', e => {
     display.value
   }
 })
-
-
