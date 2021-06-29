@@ -9,9 +9,11 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 5%;
 }
 .container h2 {
-  padding: 5%;
+  padding: 2%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .calculator {
