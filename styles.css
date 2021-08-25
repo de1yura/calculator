@@ -26,6 +26,7 @@
   background-color: black;
   position: relative;
   padding: 2%;
+  border-radius: 10px;
 }
 .calculator input {
   grid-column: 1/5;
